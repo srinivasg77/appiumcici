@@ -282,7 +282,6 @@ public class BaseTest {
 				desiredCapabilities.setCapability("wdaLocalPort", wdaLocalPort);
 				desiredCapabilities.setCapability("webkitDebugProxyPort", webkitDebugProxyPort);
 				desiredCapabilities.setCapability("app", iOSAppUrl);
-
 				driver = new IOSDriver(url, desiredCapabilities);
 				break;
 			default:
